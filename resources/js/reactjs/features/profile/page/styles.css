@@ -1,0 +1,15 @@
+.box-link {
+    height: 35vh;
+}
+
+@media (min-height: 568px) and (max-height: 638px) {
+    .box-link {
+        height: 28vh;
+    }
+}
+
+@media (min-height: 736px) {
+    .box-link {
+        height: 45vh;
+    }
+}

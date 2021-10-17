@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "clean_public": "rm -rf ./public/css && rm -rf ./public/images && rm -rf ./public/js",
+        "clean_storage": "rm -f ./public/storage && rm -rf ./storage/app/public",
+        "clean_node_modules": "rm -rf ./node_modules",
+        "clean": "npm run clean_public && npm run clean_storage && npm run clean_node_modules"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.13.13",
+        "autoprefixer": "^10.3.3",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.3.6",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "tailwindcss": "^2.2.9"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.6.1",
+        "@tailwindcss/aspect-ratio": "^0.2.1",
+        "dotenv": "^10.0.0",
+        "formik": "^2.2.9",
+        "react-beautiful-dnd": "^13.1.0",
+        "react-dnd": "^14.0.3",
+        "react-dnd-html5-backend": "^14.0.1",
+        "react-icons": "^4.2.0",
+        "react-redux": "^7.2.4",
+        "react-router-dom": "^5.2.1",
+        "react-transition-group": "^4.4.2",
+        "redux-persist": "^6.0.0",
+        "yup": "^0.32.9"
+    }
+}
